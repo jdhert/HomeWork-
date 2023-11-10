@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<h3> GET 으로 요청 </h3>
+<form action = "/query-string-servlet" method="GET">
+    <label for = "name1">이름 : </label>
+    <input type = "text" name = "name" id = "name1">
+    <br>
+    <label for = "city1">지역 : </label>
+    <input type = "text" name = "city" id = "city1">
+    <br>
+    <input type = "submit" value = "전송하기">
+</form>
+
+<h3> POST 로 요청 </h3>
+<form action = "/query-string-servlet" method="POST">
+    <label for = "name2">이름 : </label>
+    <input type = "text" name = "name" id = "name2">
+    <br>
+    <label for = "city2">지역 : </label>
+    <input type = "text" name = "city" id = "city2">
+    <br>
+    <input type = "submit" value = "전송하기">
+</form>
+</body>
+</html>

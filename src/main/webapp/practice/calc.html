@@ -6,15 +6,21 @@
 </head>
 <body>
 <form action="calc" method="get">
-    <input type="number" name="val1">
-    <select name="op">
-        <option value="plus">+</option>
-        <option value="minus">-</option>
-        <option value="mul">*</option>
-        <option value="div">/</option>
-        <option value="mod">%</option>
-    </select>
-    <input type="number" name="val2">
+    <label>
+        <input type="number" name="val1">
+    </label>
+    <label>
+        <select name="op">
+            <option value="plus">+</option>
+            <option value="minus">-</option>
+            <option value="mul">*</option>
+            <option value="div">/</option>
+            <option value="mod">%</option>
+        </select>
+    </label>
+    <label>
+        <input type="number" name="val2">
+    </label>
     <input type="submit" value="전송하기">
 </form>
 </body>

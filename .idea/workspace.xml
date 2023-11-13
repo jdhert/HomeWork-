@@ -9,8 +9,29 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="acec2c86-ed72-402f-9a80-73b97b076f81" name="Changes" comment="!!">
+    <list default="true" id="acec2c86-ed72-402f-9a80-73b97b076f81" name="Changes" comment="!!!!">
+      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/myfirstservlet/state/CookieReadServlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/myfirstservlet/state/CookieServlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/myfirstservlet/state/DispatcherServlet1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/myfirstservlet/state/DispatcherServlet2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/myfirstservlet/state/RequestServlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/myfirstservlet/state/StateStoreServlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/myfirstservlet/state/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/myfirstservlet/state/UserVisitServlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/site.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/user-visit.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/myfirstservlet/CurruentTimeServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/myfirstservlet/basic/CurruentTimeServlet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/myfirstservlet/HelloServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/myfirstservlet/basic/HelloServlet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/myfirstservlet/KoreanServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/myfirstservlet/basic/KoreanServlet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/myfirstservlet/Multiplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/myfirstservlet/basic/Multiplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/myfirstservlet/QueryStringServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/myfirstservlet/basic/QueryStringServlet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/myfirstservlet/RequestInfoServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/myfirstservlet/basic/RequestInfoServlet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/myfirstservlet/practice/CalcServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/myfirstservlet/practice/CalcServlet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/index.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/practice/calc.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/practice/calc.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -49,6 +70,7 @@
     "DefaultHtmlFileTemplate": "HTML File",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "WebServerToolWindowFactoryState": "false",
     "git-widget-placeholder": "master",
     "node.js.detected.package.eslint": "true",
@@ -164,7 +186,9 @@
       <option name="presentableId" value="Default" />
       <updated>1699516076802</updated>
       <workItem from="1699516077819" duration="2345000" />
-      <workItem from="1699575266474" duration="13034000" />
+      <workItem from="1699575266474" duration="13904000" />
+      <workItem from="1699834044645" duration="33000" />
+      <workItem from="1699834228717" duration="21507000" />
     </task>
     <task id="LOCAL-00001" summary="!!">
       <option name="closed" value="true" />
@@ -174,7 +198,15 @@
       <option name="project" value="LOCAL" />
       <updated>1699605385339</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="!!!!">
+      <option name="closed" value="true" />
+      <created>1699606017847</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1699606017847</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -182,6 +214,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="!!" />
-    <option name="LAST_COMMIT_MESSAGE" value="!!" />
+    <MESSAGE value="!!!!" />
+    <option name="LAST_COMMIT_MESSAGE" value="!!!!" />
   </component>
 </project>

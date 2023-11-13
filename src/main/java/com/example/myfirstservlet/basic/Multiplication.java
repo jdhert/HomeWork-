@@ -1,4 +1,4 @@
-package com.example.myfirstservlet;
+package com.example.myfirstservlet.basic;
 
 // 구구단 클래스
 

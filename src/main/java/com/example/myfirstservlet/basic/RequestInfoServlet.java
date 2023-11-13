@@ -1,4 +1,4 @@
-package com.example.myfirstservlet;
+package com.example.myfirstservlet.basic;
 
 import javax.servlet.annotation.WebServlet;
 import javax.servlet.http.HttpServlet;

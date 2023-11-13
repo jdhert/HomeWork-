@@ -17,24 +17,24 @@ public class CalcServlet extends HttpServlet {
 
         out.println("<h1>계산기!!!</h1>\n");
         int num1 = Integer.parseInt(req.getParameter("val1"));
-        String s = req.getParameter("op");
+        String op = req.getParameter("op");
         int num2 = Integer.parseInt(req.getParameter("val2"));
 
-        switch (s){
+        switch (op){
             case "plus":
-                out.println("<p>" + num1 + " + " + num2 +" = " + (num1 + num2) + "</p>");
+                out.println("<p>" + num1 + " + " + num2 + " = " + (num1 + num2) + "</p>");
                 break;
             case "minus":
-                out.println("<p>" + num1 + " - " + num2 +" = " + (num1 - num2) + "</p>");
+                out.println("<p>" + num1 + " - " + num2 + " = " + (num1 - num2) + "</p>");
                 break;
             case "mul":
-                out.println("<p>" + num1 + " * " + num2 +" = " + (num1 * num2) + "</p>");
+                out.println("<p>" + num1 + " X " + num2 + " = " + (num1 * num2) + "</p>");
                 break;
             case "div":
-                out.println("<p>" + num1 + " / " + num2 +" = " + (num1 / num2) + "</p>");
+                out.println("<p>" + num1 + " / " + num2 + " = " + (num1 / num2) + "</p>");
                 break;
             case "mod":
-                out.println("<p>" + num1 + " % " + num2 +" = " + (num1 % num2) + "</p>");
+                out.println("<p>" + num1 + " % " + num2 + " = " + (num1 % num2) + "</p>");
                 break;
             default:
                 out.println("<p> test </p>");

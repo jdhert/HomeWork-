@@ -10,21 +10,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="acec2c86-ed72-402f-9a80-73b97b076f81" name="Changes" comment="!!!!!!">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/myfirstservlet/practice/IdCreate.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/myfirstservlet/practice/LogOut.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/myfirstservlet/practice/Login.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/practice/join.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/practice/loginOut.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/myfirstservlet/CurruentTimeServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/myfirstservlet/basic/CurruentTimeServlet.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/myfirstservlet/HelloServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/myfirstservlet/basic/HelloServlet.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/myfirstservlet/KoreanServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/myfirstservlet/basic/KoreanServlet.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/myfirstservlet/Multiplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/myfirstservlet/basic/Multiplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/myfirstservlet/QueryStringServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/myfirstservlet/basic/QueryStringServlet.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/myfirstservlet/RequestInfoServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/myfirstservlet/basic/RequestInfoServlet.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/myfirstservlet/practice/CalcServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/myfirstservlet/practice/CalcServlet.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/index.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/practice/calc.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/practice/calc.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/practice/join.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/practice/join.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/practice/loginOut.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/practice/loginOut.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -72,26 +60,26 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "DefaultHtmlFileTemplate": "HTML File",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "git-widget-placeholder": "master",
-    "last_opened_file_path": "C:/Users/kitri/IdeaProjects/myfirst-servlet/src/main/java/com/example/myfirstservlet/practice",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "project.structure.last.edited": "Modules",
-    "project.structure.proportion": "0.0",
-    "project.structure.side.proportion": "0.0",
-    "settings.editor.selected.configurable": "settings.sync",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;DefaultHtmlFileTemplate&quot;: &quot;HTML File&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/kitri/IdeaProjects/myfirst-servlet/src/main/java/com/example/myfirstservlet/practice&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;settings.sync&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\kitri\IdeaProjects\myfirst-servlet\src\main\java\com\example\myfirstservlet\practice" />
@@ -203,7 +191,7 @@
       <workItem from="1699834044645" duration="33000" />
       <workItem from="1699834228717" duration="22264000" />
       <workItem from="1699922530866" duration="13000" />
-      <workItem from="1699922691784" duration="8019000" />
+      <workItem from="1699922691784" duration="10358000" />
     </task>
     <task id="LOCAL-00001" summary="!!">
       <option name="closed" value="true" />
@@ -229,7 +217,15 @@
       <option name="project" value="LOCAL" />
       <updated>1699863806444</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="!!!!!!!!">
+      <option name="closed" value="true" />
+      <created>1699932902920</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1699932902920</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -239,6 +235,7 @@
     <MESSAGE value="!!" />
     <MESSAGE value="!!!!" />
     <MESSAGE value="!!!!!!" />
-    <option name="LAST_COMMIT_MESSAGE" value="!!!!!!" />
+    <MESSAGE value="!!!!!!!!" />
+    <option name="LAST_COMMIT_MESSAGE" value="!!!!!!!!" />
   </component>
 </project>

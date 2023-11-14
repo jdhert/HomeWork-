@@ -28,11 +28,11 @@ public class LoginOut extends HttpServlet {
             out.println("로그아웃 되었습니다.");
             sc.setAttribute("Check", true);
             out.println("<br>\n" +
-                    "    <a href=\"loginOut.html\">다시 로그인하기</a>");
+                    "<a href=\"loginOut.html\">다시 로그인하기</a>");
         } else {
             out.println("현재 로그인 상태가 아닙니다.");
             out.println("<br>\n" +
-                    "    <a href=\"loginOut.html\">다시 로그인하기</a>");
+                    "<a href=\"loginOut.html\">다시 로그인하기</a>");
         }
     }
     @Override

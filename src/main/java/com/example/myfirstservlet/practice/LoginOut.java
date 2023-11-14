@@ -48,7 +48,7 @@ public class LoginOut extends HttpServlet {
         String password = req.getParameter("password");
 
         HttpSession session = req.getSession();
-        if(session.isNew()){ // 최초로 생성된 세션이냐?
+        if(session.isNew()){// 최초로 생성된 세션이냐?
             check = true; //
         }
         if (id == null || password == null)

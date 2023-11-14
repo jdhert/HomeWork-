@@ -43,9 +43,9 @@ public class LoginOut extends HttpServlet {
         String id = req.getParameter("ID");
         String password = req.getParameter("password");
         boolean ck = (boolean) this.getServletContext().getAttribute("Check");
-        if (id == null || password == null) {
+
+        if (id == null || password == null)
             out.println("입력값이 올바르지 않습니다.");
-        }
         else if (Id.containsKey(id) && Id.get(id).equals(password) && ck) {
                 out.println("로그인 성공 했습니다.");
                 this.getServletContext().setAttribute("Check",false);
@@ -55,6 +55,7 @@ public class LoginOut extends HttpServlet {
         else if(!Id.get(id).equals(password))
             out.println("비밀번호가 틀렸습니다.");
         else out.println("이미 로그인 중입니다.");
+
     }
 
 }

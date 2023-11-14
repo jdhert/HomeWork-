@@ -31,9 +31,10 @@ public class join extends HttpServlet {
         String id = req.getParameter("ID");
         String password = req.getParameter("password");
         String passwordVerify = req.getParameter("passwordVerify");
-        if (id == null || password == null || passwordVerify == null) {
+
+        if (id == null || password == null || passwordVerify == null)
             out.println("입력값이 올바르지 않습니다.");
-        }else if(Id.containsKey(id))
+        else if(Id.containsKey(id))
             out.println("이미 존재하는 회원입니다.");
         else if(!password.equals(passwordVerify))
             out.println("비밀번호가 일치하지 않습니다.");
@@ -42,5 +43,6 @@ public class join extends HttpServlet {
             sc.setAttribute("IdData", Id);
             req.getRequestDispatcher("loginOut.html").forward(req, resp);
         }
+
     }
 }

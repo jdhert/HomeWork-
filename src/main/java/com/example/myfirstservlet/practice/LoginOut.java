@@ -54,7 +54,7 @@ public class LoginOut extends HttpServlet {
             out.println("해당 회원 ID는 존재하지 않습니다.");
         else if(!Id.get(id).equals(password))
             out.println("비밀번호가 틀렸습니다.");
-        else out.println("이미 로그인 중입니다.");
+        else out.println("현재 로그인 상태입니다.");
 
     }
 

@@ -33,5 +33,7 @@
     <a href="site.html">상태정보 유지 기술 : 요청 단위</a>
     <br>
     <a href="dispatcher1">포워드</a>
+    <br>
+    <a href="practice/join.html">실습 3: 로그인</a>
 </body>
 </html>

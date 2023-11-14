@@ -9,29 +9,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="acec2c86-ed72-402f-9a80-73b97b076f81" name="Changes" comment="!!!!">
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/myfirstservlet/state/CookieReadServlet.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/myfirstservlet/state/CookieServlet.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/myfirstservlet/state/DispatcherServlet1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/myfirstservlet/state/DispatcherServlet2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/myfirstservlet/state/RequestServlet.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/myfirstservlet/state/StateStoreServlet.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/myfirstservlet/state/User.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/myfirstservlet/state/UserVisitServlet.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/site.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/user-visit.html" afterDir="false" />
+    <list default="true" id="acec2c86-ed72-402f-9a80-73b97b076f81" name="Changes" comment="!!!!!!">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/myfirstservlet/practice/IdCreate.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/myfirstservlet/practice/LogOut.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/myfirstservlet/practice/Login.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/practice/join.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/practice/loginOut.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/myfirstservlet/CurruentTimeServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/myfirstservlet/basic/CurruentTimeServlet.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/myfirstservlet/HelloServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/myfirstservlet/basic/HelloServlet.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/myfirstservlet/KoreanServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/myfirstservlet/basic/KoreanServlet.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/myfirstservlet/Multiplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/myfirstservlet/basic/Multiplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/myfirstservlet/QueryStringServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/myfirstservlet/basic/QueryStringServlet.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/myfirstservlet/RequestInfoServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/myfirstservlet/basic/RequestInfoServlet.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/myfirstservlet/practice/CalcServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/myfirstservlet/practice/CalcServlet.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/webapp/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/index.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/practice/calc.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/practice/calc.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -48,6 +33,20 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;jdhert&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings">
+    <option name="selectedUrlAndAccountId">
+      <UrlAndAccount>
+        <option name="accountId" value="ca94fb89-46c3-4982-96b3-f4d2e46937d6" />
+        <option name="url" value="https://github.com/jdhert/HomeWork-.git" />
+      </UrlAndAccount>
+    </option>
   </component>
   <component name="LogFilters">
     <option name="FILTER_ERRORS" value="false" />
@@ -73,6 +72,7 @@
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "WebServerToolWindowFactoryState": "false",
     "git-widget-placeholder": "master",
+    "last_opened_file_path": "C:/Users/kitri/IdeaProjects/myfirst-servlet/src/main/java/com/example/myfirstservlet/practice",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -80,17 +80,22 @@
     "project.structure.last.edited": "Modules",
     "project.structure.proportion": "0.0",
     "project.structure.side.proportion": "0.0",
-    "settings.editor.selected.configurable": "preferences.lookFeel",
+    "settings.editor.selected.configurable": "settings.sync",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\kitri\IdeaProjects\myfirst-servlet\src\main\java\com\example\myfirstservlet\practice" />
+      <recent name="C:\Users\kitri\IdeaProjects\myfirst-servlet\src\main\webapp\practice" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\kitri\IdeaProjects\myfirst-servlet\src\main\webapp\practice" />
     </key>
   </component>
   <component name="RunManager">
     <configuration name="Tomcat 9.0.82" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 9.0.82" ALTERNATIVE_JRE_ENABLED="false">
+      <option name="COMMON_VM_ARGUMENTS" value="-Dfile.encoding=UTF-8" />
       <deployment>
         <artifact name="myfirst-servlet:war exploded">
           <settings>
@@ -188,7 +193,9 @@
       <workItem from="1699516077819" duration="2345000" />
       <workItem from="1699575266474" duration="13904000" />
       <workItem from="1699834044645" duration="33000" />
-      <workItem from="1699834228717" duration="21507000" />
+      <workItem from="1699834228717" duration="22264000" />
+      <workItem from="1699922530866" duration="13000" />
+      <workItem from="1699922691784" duration="8019000" />
     </task>
     <task id="LOCAL-00001" summary="!!">
       <option name="closed" value="true" />
@@ -206,7 +213,15 @@
       <option name="project" value="LOCAL" />
       <updated>1699606017847</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="!!!!!!">
+      <option name="closed" value="true" />
+      <created>1699863806444</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1699863806444</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -215,6 +230,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="!!" />
     <MESSAGE value="!!!!" />
-    <option name="LAST_COMMIT_MESSAGE" value="!!!!" />
+    <MESSAGE value="!!!!!!" />
+    <option name="LAST_COMMIT_MESSAGE" value="!!!!!!" />
   </component>
 </project>

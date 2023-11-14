@@ -1,6 +1,5 @@
 package com.example.myfirstservlet.practice;
 
-import javax.servlet.RequestDispatcher;
 import javax.servlet.ServletConfig;
 import javax.servlet.ServletContext;
 import javax.servlet.ServletException;
@@ -12,8 +11,8 @@ import java.io.IOException;
 import java.io.PrintWriter;
 import java.util.HashMap;
 
-@WebServlet("/practice/id-create")
-public class IdCreate extends HttpServlet {
+@WebServlet("/practice/join")
+public class join extends HttpServlet {
     HashMap<String, String> Id = new HashMap<>();
 
     ServletContext sc;
@@ -24,7 +23,7 @@ public class IdCreate extends HttpServlet {
         sc = config.getServletContext(); //1. config 객체 통해서 서블릿 컨텍스트 가져올수 있음
     }
     @Override
-    protected void doGet(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
+    protected void doPost(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
         resp.setContentType("text/html;charset=UTF-8"); // 한글로 바꿔줌
         resp.setCharacterEncoding("UTF-8");
         req.setCharacterEncoding("UTF-8");

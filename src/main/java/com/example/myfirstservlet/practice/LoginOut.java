@@ -1,5 +1,7 @@
 package com.example.myfirstservlet.practice;
 
+import com.example.myfirstservlet.state.User;
+
 import javax.servlet.ServletContext;
 import javax.servlet.ServletException;
 import javax.servlet.annotation.WebServlet;
@@ -15,22 +17,20 @@ import java.util.HashMap;
 public class LoginOut extends HttpServlet {
     HashMap<String, String> Id = new HashMap<>();
     ServletContext sc;
+    HashMap<HttpSession, String> sessionStringHashMap = new HashMap<>();
 
-    boolean check;
 
     public void init() {
-        check =true;
         sc = this.getServletContext();
     }
     @Override
     protected void doGet(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
         resp.setContentType("text/html;charset=UTF-8"); // 한글로 바꿔줌
         PrintWriter out = resp.getWriter();
-
-        if(!check) {
+        HttpSession session = req.getSession(true);
+        if(sessionStringHashMap.containsKey(session)) {
+            sessionStringHashMap.remove(session);
             out.println("로그아웃 되었습니다.");
-            this.getServletContext().setAttribute("sessionCheck", req.getSession());
-            check =true;
             out.println("<br>\n" +
                     "<a href=\"loginOut.html\">다시 로그인하기</a>");
         } else {
@@ -43,21 +43,18 @@ public class LoginOut extends HttpServlet {
     protected void doPost(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
         resp.setContentType("text/html;charset=UTF-8"); // 한글로 바꿔줌
         PrintWriter out = resp.getWriter();
-        Id = (HashMap<String, String>) this.getServletContext().getAttribute("IdData");
+        Id = (HashMap<String, String>) sc.getAttribute("IdData");
         String id = req.getParameter("ID");
         String password = req.getParameter("password");
+        HttpSession session = req.getSession(true);
 
-        HttpSession session = req.getSession();
-        if(session.isNew()){// 최초로 생성된 세션이냐?
-            check = true; //
-        }
         if (id == null || password == null)
             out.println("입력값이 올바르지 않습니다.");
-        else if (Id.containsKey(id) && Id.get(id).equals(password) && check) {
-                check =false;
+        else if (Id.containsKey(id) && Id.get(id).equals(password) && !sessionStringHashMap.containsKey(session)) {
+            if(!sessionStringHashMap.containsValue(id)) {
+                sessionStringHashMap.put(session, id);
                 out.println("로그인 성공 했습니다.");
-//                HttpSession session = req.getSession();
-//                this.getServletContext().setAttribute("sessionCheck", session);
+            } else out.println("이미 로그인된 사용자입니다.");
         }
         else if(!Id.containsKey(id))
             out.println("해당 회원 ID는 존재하지 않습니다.");

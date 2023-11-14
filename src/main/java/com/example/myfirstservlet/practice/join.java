@@ -15,12 +15,12 @@ import java.util.HashMap;
 public class join extends HttpServlet {
     HashMap<String, String> Id = new HashMap<>();
 
+
     ServletContext sc;
 
     @Override
     public void init(ServletConfig config) {
-        //ServletContext : LifeCycle WAS 시작부터 끝날때까지
-        sc = config.getServletContext(); //1. config 객체 통해서 서블릿 컨텍스트 가져올수 있음
+        sc = config.getServletContext();
     }
     @Override
     protected void doPost(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
@@ -41,7 +41,7 @@ public class join extends HttpServlet {
         else {
             Id.put(id, password);
             sc.setAttribute("IdData", Id);
-            req.getRequestDispatcher("loginOut.html").forward(req, resp);
+            sc.getRequestDispatcher("/practice/loginOut.html").forward(req, resp);
         }
 
     }

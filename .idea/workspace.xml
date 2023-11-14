@@ -9,8 +9,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="acec2c86-ed72-402f-9a80-73b97b076f81" name="Changes" comment="!!">
+    <list default="true" id="acec2c86-ed72-402f-9a80-73b97b076f81" name="Changes" comment="!!!!">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/myfirstservlet/practice/LoginOut.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/myfirstservlet/practice/LoginOut.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -189,7 +190,7 @@
       <workItem from="1699834044645" duration="33000" />
       <workItem from="1699834228717" duration="22264000" />
       <workItem from="1699922530866" duration="13000" />
-      <workItem from="1699922691784" duration="19798000" />
+      <workItem from="1699922691784" duration="24648000" />
     </task>
     <task id="LOCAL-00001" summary="!!">
       <option name="closed" value="true" />
@@ -263,14 +264,21 @@
       <option name="project" value="LOCAL" />
       <updated>1699938626153</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="!!!!">
+      <option name="closed" value="true" />
+      <created>1699946230359</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1699946230359</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="!!!!" />
     <MESSAGE value="!!!!!!" />
     <MESSAGE value="!!!!!!!!" />
     <MESSAGE value="!!!!!!!!!!" />
@@ -278,6 +286,7 @@
     <MESSAGE value="!!!!!!!!!!!!" />
     <MESSAGE value="!" />
     <MESSAGE value="!!" />
-    <option name="LAST_COMMIT_MESSAGE" value="!!" />
+    <MESSAGE value="!!!!" />
+    <option name="LAST_COMMIT_MESSAGE" value="!!!!" />
   </component>
 </project>

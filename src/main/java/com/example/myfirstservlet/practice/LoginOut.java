@@ -27,8 +27,12 @@ public class LoginOut extends HttpServlet {
         if(!ck) {
             out.println("로그아웃 되었습니다.");
             sc.setAttribute("Check", true);
+            out.println("<br>\n" +
+                    "    <a href=\"loginOut.html\">다시 로그인하기</a>");
         } else {
             out.println("현재 로그인 상태가 아닙니다.");
+            out.println("<br>\n" +
+                    "    <a href=\"loginOut.html\">다시 로그인하기</a>");
         }
     }
     @Override
@@ -41,8 +45,6 @@ public class LoginOut extends HttpServlet {
         boolean ck = (boolean) this.getServletContext().getAttribute("Check");
         if (id == null || password == null) {
             out.println("입력값이 올바르지 않습니다.");
-        }else if(!ck){
-            out.println("이미 로그인 중입니다.");
         }
         else if (Id.containsKey(id) && Id.get(id).equals(password) && ck) {
                 out.println("로그인 성공 했습니다.");
@@ -50,9 +52,9 @@ public class LoginOut extends HttpServlet {
         }
         else if(!Id.containsKey(id))
             out.println("해당 회원 ID는 존재하지 않습니다.");
-        else if(!Id.get(id).equals(password)){
+        else if(!Id.get(id).equals(password))
             out.println("비밀번호가 틀렸습니다.");
-        }
+        else out.println("이미 로그인 중입니다.");
     }
 
 }
